@@ -8,7 +8,25 @@
     <PackageProjectUrl>https://github.com/akkadotnet/akka.net</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/akkadotnet/akka.net/blob/master/LICENSE</PackageLicenseUrl>
     <Description>C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)</Description>
+    <AssemblyName>Hocon</AssemblyName>
+    <RootNamespace>Hocon</RootNamespace>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="CDataConfigurationElement.cs" />
+    <Compile Remove="Configuration\Config.cs" />
+    <Compile Remove="Configuration\ConfigurationException.cs" />
+    <Compile Remove="Configuration\ConfigurationFactory.cs" />
+    <Compile Remove="HoconConfigurationElement.cs" />
+    <Compile Remove="HoconConfigurationSection.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CDataConfigurationElement.cs" />
+    <None Include="Configuration\Config.cs" />
+    <None Include="Configuration\ConfigurationException.cs" />
+    <None Include="Configuration\ConfigurationFactory.cs" />
+    <None Include="HoconConfigurationElement.cs" />
+    <None Include="HoconConfigurationSection.cs" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json">
       <Version>10.0.2</Version>

@@ -11,7 +11,7 @@ using System.Globalization;
 using System.Linq;
 using System.Text;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class contains methods used to tokenize a string.

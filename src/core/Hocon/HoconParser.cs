@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class contains methods used to parse HOCON (Human-Optimized Config Object Notation)
@@ -62,7 +62,7 @@ namespace Akka.Configuration.Hocon
             _reader = new HoconTokenizer(text);
             _reader.PullWhitespaceAndComments();
             ParseObject(_root, true,"");
-
+            /*
             var c = new Config(new HoconRoot(_root, Enumerable.Empty<HoconSubstitution>()));
             foreach (HoconSubstitution sub in _substitutions)
             {
@@ -72,6 +72,7 @@ namespace Akka.Configuration.Hocon
 
                 sub.ResolvedValue = res;
             }
+            */
             return new HoconRoot(_root, _substitutions);
         }
 

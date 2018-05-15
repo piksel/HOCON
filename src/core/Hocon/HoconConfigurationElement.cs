@@ -8,7 +8,7 @@
 #if NET45
 using System.Configuration;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents a custom HOCON (Human-Optimized Config Object Notation)

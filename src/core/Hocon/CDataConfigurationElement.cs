@@ -9,7 +9,7 @@
 using System.Configuration;
 using System.Xml;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents the base implementation for retrieving text from
@@ -19,15 +19,13 @@ namespace Akka.Configuration.Hocon
     /// <?xml version="1.0" encoding="utf-8" ?>
     /// <configuration>
     ///   <configSections>
-    ///     <section name="akka" type="Akka.Configuration.Hocon.HoconConfigurationSection, Akka.Hocon" />
+    ///     <section name="akka" type="Hocon.HoconConfigurationSection, Hocon" />
     ///   </configSections>
-    ///   <akka>
-    ///     <hocon>
-    ///       &lt;![CDATA[
-    ///       ...
-    ///       ]]&gt;
-    ///     </hocon>
-    ///   </akka>
+    ///   <hocon>
+    ///     &lt;![CDATA[
+    ///     ...
+    ///     ]]&gt;
+    ///   </hocon>
     /// </configuration>
     /// ]]>
     /// </code>

@@ -11,7 +11,7 @@ using System.Globalization;
 using System.Linq;
 using System.Threading;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents the root type for a HOCON (Human-Optimized Config Object Notation)
@@ -45,6 +45,7 @@ namespace Akka.Configuration.Hocon
         /// </summary>
         /// <param name="key">The key designated to be the new root element.</param>
         /// <returns>A <see cref="Config"/> with the given key as the root element.</returns>
+        /*
         public Config AtKey(string key)
         {
             var o = new HoconObject();
@@ -54,6 +55,7 @@ namespace Akka.Configuration.Hocon
             r.Values.Add(o);
             return new Config(new HoconRoot(r));
         }
+        */
 
         /// <summary>
         /// Retrieves the <see cref="HoconObject"/> from this <see cref="HoconValue"/>.

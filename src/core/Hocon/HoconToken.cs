@@ -5,7 +5,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This enumeration defines the different types of tokens found within

@@ -8,25 +8,25 @@
 #if NET45
 using System.Configuration;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
-   /// <summary>
-   /// This class represents a custom akka node within a configuration file.
-   /// <code>
-   /// <![CDATA[
-   /// <?xml version="1.0" encoding="utf-8" ?>
-   /// <configuration>
-   ///   <configSections>
-   ///     <section name="akka" type="Akka.Configuration.Hocon.HoconConfigurationSection, Akka.Hocon" />
-   ///   </configSections>
-   ///   <akka>
-   ///   ...
-   ///   </akka>
-   /// </configuration>
-   /// ]]>
-   /// </code>
-   /// </summary>
-   public class HoconConfigurationSection : ConfigurationSection
+    /// <summary>
+    /// This class represents a custom akka node within a configuration file.
+    /// <code>
+    /// <![CDATA[
+    /// <?xml version="1.0" encoding="utf-8" ?>
+    /// <configuration>
+    ///   <configSections>
+    ///     <section name="akka" type="Hocon.HoconConfigurationSection, Hocon" />
+    ///   </configSections>
+    ///   <hocon>
+    ///   ...
+    ///   </hocon>
+    /// </configuration>
+    /// ]]>
+    /// </code>
+    /// </summary>
+    public class HoconConfigurationSection : ConfigurationSection
    {
       private const string ConfigurationPropertyName = "hocon";
       private Config _config;
@@ -47,13 +47,11 @@ namespace Akka.Configuration.Hocon
       /// <?xml version="1.0" encoding="utf-8" ?>
       /// <configuration>
       ///   <configSections>
-      ///     <section name="akka" type="AkkaConfiguration.Hocon.HoconConfigurationSection, Akka.Hocon" />
+      ///     <section name="hocon" type="HoconConfigurationSection, Hocon" />
       ///   </configSections>
-      ///   <akka>
-      ///      <hocon>
-      ///      ...
-      ///      </hocon>
-      ///   </akka>
+      ///   <hocon>
+      ///    ...
+      ///   </hocon>
       /// </configuration>
       /// </code>
       /// </summary>

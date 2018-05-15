@@ -7,7 +7,7 @@
 
 using System.Collections.Generic;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents a substitution element in a HOCON (Human-Optimized Config Object Notation)

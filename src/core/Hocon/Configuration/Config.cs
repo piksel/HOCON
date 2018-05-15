@@ -5,7 +5,7 @@
 // </copyright>
 //-----------------------------------------------------------------------
 
-using Akka.Configuration.Hocon;
+using Hocon;
 using System;
 using System.Collections.Generic;
 

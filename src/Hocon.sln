@@ -1,10 +1,11 @@
-﻿Microsoft Visual Studio Solution File, Format Version 12.00
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Hocon", "core\Hocon\Akka.Hocon.csproj", "{4A87AD05-BEF2-4B08-BD7E-A9866D88C439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hocon", "core\Hocon\Hocon.csproj", "{4A87AD05-BEF2-4B08-BD7E-A9866D88C439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hocon.Tests", "core\Hocon.Tests\Hocon.Tests.csproj", "{4FFD147E-6F27-45AA-B2ED-AD2DA599C532}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hocon.Tests", "core\Hocon.Tests\Hocon.Tests.csproj", "{4FFD147E-6F27-45AA-B2ED-AD2DA599C532}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{54BBEF30-0912-4363-9589-9E628EC657F6}"
 EndProject
@@ -19,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleSubstitutions", "examples\SimpleSubstitutions\SimpleSubstitutions.csproj", "{06845F4C-E608-4755-B6ED-5A6C775E4DD5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalIncludes", "examples\ExternalIncludes\ExternalIncludes.csproj", "{8ABBD17A-692F-4F21-8945-A4919A86925B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tester", "Tester\Tester.csproj", "{EDBE4848-D2F2-4341-B0B2-AE2D416FC791}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +57,10 @@ Global
 		{8ABBD17A-692F-4F21-8945-A4919A86925B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8ABBD17A-692F-4F21-8945-A4919A86925B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8ABBD17A-692F-4F21-8945-A4919A86925B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBE4848-D2F2-4341-B0B2-AE2D416FC791}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBE4848-D2F2-4341-B0B2-AE2D416FC791}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBE4848-D2F2-4341-B0B2-AE2D416FC791}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBE4848-D2F2-4341-B0B2-AE2D416FC791}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +73,8 @@ Global
 		{0228F9B6-394C-4D6E-A234-EF82C034FBFF} = {633E4227-A565-43B6-BEA8-0F027813FE33}
 		{06845F4C-E608-4755-B6ED-5A6C775E4DD5} = {633E4227-A565-43B6-BEA8-0F027813FE33}
 		{8ABBD17A-692F-4F21-8945-A4919A86925B} = {633E4227-A565-43B6-BEA8-0F027813FE33}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E9E6D5B-6E50-4C28-BDDC-EF8C30AC7FDF}
 	EndGlobalSection
 EndGlobal

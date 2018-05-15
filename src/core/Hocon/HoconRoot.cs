@@ -8,7 +8,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents the root element in a HOCON (Human-Optimized Config Object Notation)

@@ -11,7 +11,7 @@ using System.Linq;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Akka.Configuration.Hocon
+namespace Hocon
 {
     /// <summary>
     /// This class represents an object element in a HOCON (Human-Optimized Config Object Notation)

@@ -19,7 +19,7 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\Hocon\Akka.Hocon.csproj" />
+    <ProjectReference Include="..\Hocon\Hocon.csproj" />
   </ItemGroup>
   
   <ItemGroup>
