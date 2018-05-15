@@ -2,7 +2,8 @@
 
 C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)
 
-[![Build Status](https://travis-ci.org/akkadotnet/HOCON.svg)](https://travis-ci.org/akkadotnet/HOCON)
+Fork of [akkadotnet/HOCCON](https://github.com/akkadotnet/HOCON) made to fully separate it from akka.net for general purpose use.
+The current plan is to use the Newtonsoft Json.NET serializing framework and extend it by extending JsonReader and -Writer.
 
 # Spec
 
