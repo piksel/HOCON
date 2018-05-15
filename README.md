@@ -3,7 +3,7 @@
 C# implementation of Typesafe's HOCON (Human-Optimized Object Configuration Notation)
 
 Fork of [akkadotnet/HOCCON](https://github.com/akkadotnet/HOCON) made to fully separate it from akka.net for general purpose use.
-The current plan is to use the Newtonsoft Json.NET serializing framework and extend it by extending JsonReader and -Writer.
+The current plan is to use the Newtonsoft Json.NET serializing framework by extending JsonReader and -Writer.
 
 # Spec
 
